@@ -9,10 +9,10 @@ struct OnboardingPageView: View {
                 VStack(alignment: .leading){
                     Text(OnboardingPage.title)
                         .foregroundColor(.white)
-                        .font(.custom("Arial", size: 28))  // Указываем конкретное жирное начертание
+                        .font(.custom("Arial", size: 28))  
                         .bold()
                         .fontWeight(.bold)
-                        .frame(width: 360, alignment: .topLeading)    // Устанавливаем размер и выравнивание
+                        .frame(width: 360, alignment: .topLeading)   
 
                     Text(OnboardingPage.desc)
                         .padding(.top, 8)
